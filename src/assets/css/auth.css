@@ -1,0 +1,34 @@
+.bgImg{
+    object-fit: cover;
+    object-position: center;
+    width: 95%;
+    height: 100%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.animate-form{
+    animation-name: form-animate;
+    animation-duration: 1s;
+}
+@keyframes form-animate{
+    from{
+        margin-top: 2rem;
+    }to{
+        margin-top: 0;
+    }
+}
+
+.hover{
+    color: gray;
+}
+.hover:hover{
+    color: #abd373;
+}
+
+.inputs-border:focus{
+    border: 1.5px solid #abd373;
+}
+.form{
+    overflow-x: hidden;
+}
