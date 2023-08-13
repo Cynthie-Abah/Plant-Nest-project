@@ -1,0 +1,121 @@
+ <div className="row">
+                    <div className="col-lg-12">
+                        <ul className="nav product-tab-nav tab-style-1" id="myTab" role="tablist">
+                            <li className="nav-item" role="presentation">
+                                <a className="active" id="featured-tab" data-bs-toggle="tab" href="#featured" role="tab" aria-controls="featured" aria-selected="true">
+                                    Featured
+                                </a>
+                            </li>
+                           
+                            <li className="nav-item" role="presentation">
+                                <a id="latest-tab" data-bs-toggle="tab" href="#latest" role="tab" aria-controls="latest" aria-selected="false">
+                                    Latest
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="tab-content" id="myTabContent">
+                            <div className="tab-pane fade show active" id="featured" role="tabpanel" aria-labelledby="featured-tab">
+                                <div className="product-item-wrap row">
+                                <div className="col-xl-3 col-md-4 col-sm-6">
+                                <div className="product-item">
+                                        <div className="product-img">
+                                            <a href="shop.html">
+                                                    <img className="primary-img" src="images/product/medium-size/1-2-270x300.jpg" alt="Product Images"/>
+                                                    <img className="secondary-img" src="images/product/medium-size/1-3-270x300.jpg" alt="Product Images"/>
+                                                </a>
+
+                                                <div className="product-add-action">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="wishlist.html" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                                                <i className="pe-7s-like"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li className="quuickview-btn" data-bs-toggle="modal" data-bs-target="#quickModal">
+                                                            <a href="#" data-tippy="Quickview" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                                                <i className="pe-7s-look"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="cart.html" data-tippy="Add to cart" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                                                <i className="pe-7s-cart"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                        </div>
+                                        <div className="product-content">
+                                                <a className="product-name" href="shop.html">Black Eyed Susan</a>
+                                                <div className="price-box pb-1">
+                                                    <span className="new-price">$25.45</span>
+                                                </div>
+                                                <div className="rating-box">
+                                                    <ul>
+                                                        <li><i className="fa fa-star"></i></li>
+                                                        <li><i className="fa fa-star"></i></li>
+                                                        <li><i className="fa fa-star"></i></li>
+                                                        <li><i className="fa fa-star"></i></li>
+                                                        <li><i className="fa fa-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+
+                            <div className="tab-pane fade show active" id="latest" role="tabpanel" aria-labelledby="featured-tab">
+                                <div className="product-item-wrap row">
+                                <div className="col-xl-3 col-md-4 col-sm-6">
+                                <div className="product-item">
+                                        <div className="product-img">
+                                            <a href="shop.html">
+                                                    <img className="primary-img" src="images/product/medium-size/1-2-270x300.jpg" alt="Product Images"/>
+                                                    <img className="secondary-img" src="images/product/medium-size/1-3-270x300.jpg" alt="Product Images"/>
+                                                </a>
+
+                                                <div className="product-add-action">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="wishlist.html" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                                                <i className="pe-7s-like"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li className="quuickview-btn" data-bs-toggle="modal" data-bs-target="#quickModal">
+                                                            <a href="#" data-tippy="Quickview" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                                                <i className="pe-7s-look"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="cart.html" data-tippy="Add to cart" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                                                <i className="pe-7s-cart"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                        </div>
+                                        <div className="product-content">
+                                                <a className="product-name" href="shop.html">  Susan</a>
+                                                <div className="price-box pb-1">
+                                                    <span className="new-price">$25.45</span>
+                                                </div>
+                                                <div className="rating-box">
+                                                    <ul>
+                                                        <li><i className="fa fa-star"></i></li>
+                                                        <li><i className="fa fa-star"></i></li>
+                                                        <li><i className="fa fa-star"></i></li>
+                                                        <li><i className="fa fa-star"></i></li>
+                                                        <li><i className="fa fa-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                </div>
